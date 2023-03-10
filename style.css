@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    height: 100%;
+}
+/* header */
+header h1{
+    text-align: center;
+}
+.slider{
+    width: 100%; 
+}
+.mySlides{
+    width: 100%;
+    height: auto;
+}
+/* end header */
+/* footer */
+.end div{
+    width: 100%;
+    height: 20px;
+    background-color: #4cd871;
+}
+
+.end div p{
+    text-align: center;
+    margin: auto;
+}
