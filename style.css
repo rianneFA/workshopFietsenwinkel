@@ -3,15 +3,31 @@ body{
     height: 100%;
 }
 /* header */
-header h1{
-    text-align: center;
+.header {
+    background-color: gray;
+    width: 101.5%;
+    height: 80px;
+    margin-top: -10px;
+    margin-left: -10px;
+    display: flex;
+    justify-content: space-between;
 }
-.slider{
-    width: 100%; 
+
+.imgLogo {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
 }
-.mySlides{
-    width: 100%;
-    height: auto;
+
+.titelH2 {
+    float: left;
+    margin-left: 50px;
+    padding-top: 5px;
+}
+
+.rowButton {
+    margin-top: 25px;
+    margin-right: 25px;
 }
 /* end header */
 /* footer */
@@ -24,4 +40,14 @@ header h1{
 .end div p{
     text-align: center;
     margin: auto;
+}
+
+/* Home page */
+
+.slider{
+    width: 100%; 
+}
+.mySlides{
+    width: 100%;
+    height: auto;
 }
