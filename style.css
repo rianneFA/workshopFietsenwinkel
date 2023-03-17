@@ -21,7 +21,7 @@ body{
 .titelH2 {
     float: left;
     margin-left: 50px;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 .rowButton {
@@ -32,11 +32,21 @@ body{
 button {
     background-color: #fbb4c1;
     border: 1px solid #f996b5;
-    width: 80px;
-    height: 25px;
+    width: 85px;
+    height: 30px;
 }
-/* end header */
+
+.buttonLogin {
+    margin-right: 10px;
+}
+
 /* footer */
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
 .end {
     width: 100%;
     background-color: #a3f4a3;
@@ -44,6 +54,10 @@ button {
 .end .subfooter{
     height: 25px;
     text-align: center;
+}
+
+.end .footer {
+    margin-top: 25px;
 }
 
 .lorem {
@@ -59,6 +73,19 @@ button {
 
 .end div p{
     margin: auto;
+}
+
+/* login page */
+.login { 
+    width: 360px; 
+    padding: 20px; 
+    margin: auto; 
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.buttonLoginform {
+    
 }
 
 /* Home page */
