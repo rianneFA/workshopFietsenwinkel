@@ -14,7 +14,7 @@
     <header class="header">
         <div>
             <img src="R&RLogoDesignTransparent.png" width="160px" height="70px" class="imgLogo">
-            <h2 class="titelH2">De ridder op de witte fiets</h2>
+            <h2 class="titelH2 bold">De ridder op de witte fiets</h2>
         </div>
         
         <div class="rowButton">

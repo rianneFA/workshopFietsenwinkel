@@ -5,7 +5,7 @@ require_once "header.php";
 <html>
 <body>
     <div class="login">
-            <h2>Login</h2>
+            <h2 class="bold">Login</h2>
 
         <!-- <?php 
         if(!empty($login_err)){
@@ -25,7 +25,7 @@ require_once "header.php";
             <div class="form-group">
                 <input type="submit" class="buttonLoginform" value="Login">
             </div>
-            <p>Nog geen account? <a href="register.php">Registreer nu</a>.</p>
+            <p>Nog geen account? <a class="registernowText" href="register.php">Registreer nu</a>.</p>
         </form>
     </div>
 </body>

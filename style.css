@@ -1,6 +1,11 @@
 body{
     margin: 0px;
     height: 100%;
+    font-family: sans-serif;
+}
+
+.bold {
+    font-weight: bold;
 }
 /* header */
 .header {
@@ -85,7 +90,19 @@ button {
 }
 
 .buttonLoginform {
-    
+    background-color: #fbb4c1;
+    border: 1px solid #f996b5;
+    width: 85px;
+    height: 30px;
+}
+
+.registernowText {
+    color: #fbb4c1;
+}
+
+.registernowText:hover {
+    color: #a3f4a3;
+    text-decoration: none;
 }
 
 /* Home page */
