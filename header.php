@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <img src="R&RLogoDesign.png" width="160px" height="70px" class="imgLogo">
+            <img src="R&RLogoDesignTransparent.png" width="160px" height="70px" class="imgLogo">
             <h2 class="titelH2">De ridder op de witte fiets</h2>
         </div>
         
