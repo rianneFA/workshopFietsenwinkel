@@ -1,11 +1,28 @@
+/* handige informatie 
+    color
+        - light green: #a3f4a3
+        - dark green: #8FEB91
+        - light pink: #fbb4c1
+        - dark pink: #f996b5
+*/
+
 body{
     margin: 0px;
     height: 100%;
     font-family: sans-serif;
 }
 
+/* herbruikbare classes */
 .bold {
     font-weight: bold;
+}
+
+.login { 
+    width: 360px; 
+    padding: 20px; 
+    margin: auto; 
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 /* header */
 .header {
@@ -39,6 +56,10 @@ button {
     border: 1px solid #f996b5;
     width: 85px;
     height: 30px;
+}
+
+button:hover {
+    background-color: #f996b5;
 }
 
 .buttonLogin {
@@ -80,27 +101,33 @@ button {
     margin: auto;
 }
 
-/* login page */
-.login { 
-    width: 360px; 
-    padding: 20px; 
-    margin: auto; 
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.buttonLoginform {
+/* login + registreer page */
+.buttonPrimair{
     background-color: #fbb4c1;
     border: 1px solid #f996b5;
     width: 85px;
     height: 30px;
 }
 
-.registernowText {
+.buttonPrimair:hover {
+    background-color: #f996b5;
+}
+
+.buttonSecondair {
+    background-color: #a3f4a3;
+    border: 1px solid #8FEB91;
+}
+
+.buttonSecondair:hover {
+    background-color: #8FEB91;
+    border: 1px solid #8FEB91;
+}
+
+.linkColorText {
     color: #fbb4c1;
 }
 
-.registernowText:hover {
+.linkColorText:hover {
     color: #a3f4a3;
     text-decoration: none;
 }

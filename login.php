@@ -23,9 +23,9 @@ require_once "header.php";
                 <input type="password" name="password" class="form-control">
             </div>
             <div class="form-group">
-                <input type="submit" class="buttonLoginform" value="Login">
+                <input type="submit" class="buttonPrimair" value="Login">
             </div>
-            <p>Nog geen account? <a class="registernowText" href="register.php">Registreer nu</a>.</p>
+            <p>Nog geen account? <a class="linkColorText" href="register.php">Registreer nu</a>.</p>
         </form>
     </div>
 </body>
