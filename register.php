@@ -1,7 +1,10 @@
 <?php
 require_once "header.php";
 
-
+if(isset($_POST['submit']))
+{
+    
+}
 ?>
 
 <html>
@@ -12,7 +15,11 @@ require_once "header.php";
             <div class="form-group">
                 <label>Username</label>
                 <input type="text" name="username" class="form-control" value="">
-            </div>    
+            </div>  
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" class="form-control" value="">
+            </div>  
             <div class="form-group">
                 <label>Password</label>
                 <input type="password" name="password" class="form-control" value="">
