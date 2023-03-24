@@ -1,5 +1,7 @@
 <?php
 require_once "header.php";
+
+
 ?>
 
 <html>
@@ -20,7 +22,7 @@ require_once "header.php";
                 <input type="password" name="confirm_password" class="form-control" value="">
             </div>
             <div class="form-group">
-                <input type="submit" class="buttonPrimair" value="Submit">
+                <input type="submit" class="buttonPrimair" value="Submit" name="submit">
                 <input type="reset" class="buttonPrimair buttonSecondair" value="Reset">
             </div>
             <p>Heb je al een account? <a href="login.php" class="linkColorText">Login hier</a>.</p>
