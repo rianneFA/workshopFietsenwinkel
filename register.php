@@ -1,9 +1,16 @@
 <?php
 require_once "header.php";
+require_once "database/userFunctions.php";
 
-if(isset($_POST['submit']))
-{
-    
+if(isset($_POST['submit'])){
+    $username = $_POST['username'];
+    $email    = $_POST['email'];
+    $password = $_POST['password'];
+
+    registerUser($username, $email, $password);
+
+    echo "Registeren is gelukt! Je kan na inloggen";
+
 }
 ?>
 
