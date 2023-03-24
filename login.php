@@ -3,6 +3,9 @@ require_once "header.php";
 ?>
 
 <html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+</head>
 <body>
     <div class="login">
             <h2 class="bold">Login</h2>

@@ -164,8 +164,31 @@ button:hover {
 .checkboxPayment {
     width: 30px;
     height: 30px;
+    align-items: end;
 }
 
 .adresGegevens {
-    background-color: #a3f4a3;
+    width: 45%;
+    padding: 10px;
 }
+
+.bezorgDatum {
+    width: 45%;
+    padding: 10px;
+    background-color:#a3f4a3;
+}
+
+.betaalMethodes {
+    width: 45%;
+    padding: 10px;
+    /* background-color:#fbb4c1; */
+}
+
+.formPaymethod {
+    width: 250px;
+}
+
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
