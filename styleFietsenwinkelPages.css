@@ -161,6 +161,20 @@ button:hover {
     cursor: pointer;
 }
 
+.paymethodP:hover {
+    color: #a3f4a3;
+    text-decoration: underline;
+}
+
+.paymethodP:active {
+    color: #a3f4a3;
+}
+
+.paymethodA:hover {
+    text-decoration: none;
+    
+}
+
 .checkboxPayment {
     width: 30px;
     height: 30px;
@@ -168,12 +182,11 @@ button:hover {
 
 .adresGegevens {
     width: 45%;
-    padding: 10px;
+    padding: 20px;
 }
 
 .bezorgDatum {
     width: 45%;
-    padding: 10px;
     /* background-color:#197BBD; */
 }
 
@@ -189,14 +202,16 @@ button:hover {
 
 .leftSide {
     display: flex;
+    margin-top: 25px;
 }
 
 .h2BetaalMethodes {
     text-align: center;
 }
 
-.paymethodA:hover{
-    text-decoration: none;
+.buttonBetalenDiv {
+    display: flex;
+    justify-content: center;
 }
 
 
