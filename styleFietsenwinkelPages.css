@@ -220,4 +220,46 @@ button:hover {
     justify-content: center;
 }
 
+/* Shop page */
+.h1Shop {
+    text-align: center;
+}
+.shopOverview, .shoppage {
+    margin: 25px;
+    margin-bottom: 80px;
+}
+.cardFiets {
+    border: 4px solid #fbb4c1;
+    width: 308px;
+}
+
+.imgFiets {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+}
+
+.prijsFiets {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.merkTypeFiets {
+    text-align: center;
+}
+
+.textFiets {
+    padding: 10px;
+}
+
+.cardFietsA {
+    color: black;
+}
+
+.cardFietsA:hover {
+    color:#a3f4a3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
