@@ -2,7 +2,9 @@
     require_once "header.php";
 ?>
 <html>
-    <body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/payment.js"></script>
+<body>
         <div class="paymentMethod">
             <div class="leftSide">
                 <div class="adresGegevens">
@@ -41,19 +43,19 @@
                     <h2 class="h2BetaalMethodes">Betaal methodes</h2>
                     <form action="" method="post">
                         <div class="paypalPayMethod">
-                            <a class="paymethodA"><image class="paymethodImg" src="img/paypal.png"></image><p class="paymethodP">PayPal</p></a>
+                            <a class="paymethodA" id="payPalA"><image class="paymethodImg" src="img/paypal.png"></image><p class="paymethodP" id="payPal">PayPal</p></a>
                         </div>   
                         <div class="paypalPayMethod">
-                            <a class="paymethodA"><image class="paymethodImg" src="img/credit-card.png"></image><p class="paymethodP">Credit Card</p></a>
+                            <a class="paymethodA" id="creditA"><image class="paymethodImg" src="img/credit-card.png"></image><p class="paymethodP" id="credit">Credit Card</p></a>
                         </div> 
                         <div class="paypalPayMethod">
-                            <a class="paymethodA"><image class="paymethodImg" src="img/bank.png"></image><p class="paymethodP">SEPA/Bank Transfer</p></a>
+                            <a class="paymethodA" id="bankA"><image class="paymethodImg" src="img/bank.png"></image><p class="paymethodP" id="bank">SEPA/Bank Transfer</p></a>
                         </div> 
                         <div class="paypalPayMethod">
-                            <a class="paymethodA"><image class="paymethodImg" src="img/bitcoin-logo.png"></image><p class="paymethodP">Bitcoin</p></a>
+                            <a class="paymethodA" id="bitcoinA"><image class="paymethodImg" src="img/bitcoin-logo.png"></image><p class="paymethodP" id="bitcoin">Bitcoin</p></a>
                         </div> 
                         <div class="paypalPayMethod">
-                            <a class="paymethodA"><image class="paymethodImg" src="img/back-arrow.png"></image><p class="paymethodP">Achteraf Betalen</p></a>
+                            <a class="paymethodA" id="achterafA"><image class="paymethodImg" src="img/back-arrow.png"></image><p class="paymethodP" id="achteraf">Achteraf Betalen</p></a>
                         </div> 
                 </div>
                 <div class="buttonBetalenDiv">
@@ -61,6 +63,7 @@
                 </div>
             </div>    
         </div>    
+
     </body>
 </html>
 

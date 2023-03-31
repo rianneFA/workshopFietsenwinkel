@@ -166,9 +166,9 @@ button:hover {
     text-decoration: underline;
 }
 
-.paymethodP:active {
+/* .paymethodP:active {
     color: #a3f4a3;
-}
+} */
 
 .paymethodA:hover {
     text-decoration: none;
