@@ -9,9 +9,10 @@
         <div class="footer">
             <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam quod recusandae quam adipisci distinctio numquam rem qui molestiae consectetur laboriosam.</p>
             <nav class="footerlinks">
-                <a><p>Link 1</p></a>
-                <a><p>Link 1</p></a>
-                <a><p>Link 1</p></a>
+                <a href="home.php"><p>Home</p></a>
+                <a><p>Shopping</p></a> 
+                <!-- href nog aangeven -->
+                <a href="login.php"><p>Login</p></a>
             </nav>
         </div>
         <div class="subfooter">

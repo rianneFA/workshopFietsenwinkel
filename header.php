@@ -13,13 +13,13 @@
 <body>
     <header class="header">
         <div>
-            <img src="img/R&RLogoDesignTransparent.png" width="160px" height="70px" class="imgLogo">
+            <a href="home.php"><img src="img/R&RLogoDesignTransparent.png" width="160px" height="70px" class="imgLogo"></a>
             <h2 class="titelH2 bold">De ridder op de witte fiets</h2>
         </div>
         
         <div class="rowButton">
-            <button class="buttonLogin">Login</button>
-            <button class="buttonRegistreer">Registreer</button>
+            <a href="login.php"><button class="buttonLogin">Login</button></a>
+            <a href="register.php"><button class="buttonRegistreer">Registreer</button></a>
         </div>
     </header>
 </body>
