@@ -67,12 +67,12 @@ button:hover {
 }
 
 /* footer */
-.bottom {
+/* .bottom { */
   /* position: absolute;
   bottom: 0;
-  left: 0; */
-  text-align: center;
-}
+  left: 0;
+  text-align: center;  */
+/* } */
 .end {
     width: 100%;
     background-color: #a3f4a3;
@@ -148,17 +148,17 @@ button:hover {
     display: flex;
 }
 
-.paymethodA {
-    display: flex;
-    align-items: center;
-}
-
 .paymethodImg {
-    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
 
 .paymethodP {
     color: black;
+    text-align: center;
+    cursor: pointer;
 }
 
 .checkboxPayment {
@@ -189,6 +189,14 @@ button:hover {
 
 .leftSide {
     display: flex;
+}
+
+.h2BetaalMethodes {
+    text-align: center;
+}
+
+.paymethodA:hover{
+    text-decoration: none;
 }
 
 

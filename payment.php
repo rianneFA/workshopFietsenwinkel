@@ -38,7 +38,7 @@
 
             <div class="rightSide">
                 <div class="betaalMethodes">
-                    <h2>Betaal methodes</h2>
+                    <h2 class="h2BetaalMethodes">Betaal methodes</h2>
                     <form action="" method="post">
                         <div class="paypalPayMethod">
                             <a class="paymethodA"><image class="paymethodImg" src="img/paypal.png"></image><p class="paymethodP">PayPal</p></a>
