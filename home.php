@@ -18,7 +18,7 @@ require_once "header.php";
         <img class="mySlides" src="img/fiets.jpg" alt="">
     </div>
 
-    <script src="app.js" async></script>
+    <script src="js/app.js" async></script>
 </body>
 </html>
 

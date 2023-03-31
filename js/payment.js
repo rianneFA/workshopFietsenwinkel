@@ -1,0 +1,3 @@
+$('.paypalPayMethod').click(function (){ 
+    
+})

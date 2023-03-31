@@ -41,7 +41,7 @@
                     <h2 class="h2BetaalMethodes">Betaal methodes</h2>
                     <form action="" method="post">
                         <div class="paypalPayMethod">
-                            <a class="paymethodA" href="#"><image class="paymethodImg" src="img/paypal.png"></image><p class="paymethodP">PayPal</p></a>
+                            <a class="paymethodA"><image class="paymethodImg" src="img/paypal.png"></image><p class="paymethodP">PayPal</p></a>
                         </div>   
                         <div class="paypalPayMethod">
                             <a class="paymethodA"><image class="paymethodImg" src="img/credit-card.png"></image><p class="paymethodP">Credit Card</p></a>
