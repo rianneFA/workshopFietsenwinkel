@@ -155,8 +155,14 @@ button:hover {
     width: 10%;
 }
 
-.paymethodP {
+.paymethodA {
     color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.select{
+    color: #8FEB91;
     text-align: center;
     cursor: pointer;
 }
