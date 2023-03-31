@@ -8,8 +8,8 @@ function registerUser($username, $email, $password){
     return $result;
 }
 
-function getUser($username, $email, $password){
-    $user = db_getData("SELECT * FROM user WHERE username = '$username' AND email = '$email' AND wachtwoord = '$password'");
+function getUser($username, $password){
+    $user = db_getData("SELECT * FROM user WHERE username = '$username' AND password = '$password'");
     if ($user->num_rows > 0){
         return $user;
     }

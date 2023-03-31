@@ -1,5 +1,22 @@
 <?php
 require_once "header.php";
+require_once "database/userFunctions.php";
+
+if(isset($_POST['submit']))
+{
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    $user = getUser($username, $password);
+
+    if($user == "No user found!")
+    {
+        echo "Er is wat fout gegaan, we hebben geen gebruiker gevonden!";
+    }else
+    {
+        header('location: payment.php');
+    }
+}
 ?>
 
 <html>
@@ -26,7 +43,7 @@ require_once "header.php";
                 <input type="password" name="password" class="form-control">
             </div>
             <div class="form-group">
-                <input type="submit" class="buttonPrimair" value="Login">
+                <input type="submit" class="buttonPrimair" value="Login" name="submit">
             </div>
             <p>Nog geen account? <a class="linkColorText" href="register.php">Registreer nu</a>.</p>
         </form>

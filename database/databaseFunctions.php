@@ -2,9 +2,9 @@
 
 function db_connect(){
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "fietsenwinkel";
+    $username   = "root";
+    $password   = "";
+    $dbname     = "fietsenwinkel";
 
     $mysqli = new mysqli($servername, $username, $password, $dbname);
 
