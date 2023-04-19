@@ -16,15 +16,15 @@
                         </div>    
                         <div class="form-group">
                             <label>Straatnaam</label>
-                            <input type="password" name="straatnaam" class="form-control">
+                            <input type="text" name="straatnaam" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Huisnr & toevoeging</label>
-                            <input type="password" name="huisnr" class="form-control">
+                            <input type="text" name="huisnr" class="form-control">
                         </div>
                         <div class="form-group">
                             <label>Postcode</label>
-                            <input type="password" name="postcode" class="form-control">
+                            <input type="text" name="postcode" class="form-control">
                     </form>
             </div>
 
